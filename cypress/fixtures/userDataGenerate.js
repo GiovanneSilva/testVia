@@ -1,6 +1,6 @@
 const fakerBr = require('faker-br');
 
-function gerarDadosUsuario() {
+function generateUserData() {
   const nome = fakerBr.name.firstName();
   const sobrenome = fakerBr.name.lastName();
   const email = fakerBr.internet.email(nome.toLowerCase(), sobrenome.toLowerCase());
@@ -21,4 +21,4 @@ function gerarDadosUsuario() {
   };
 }
 
-module.exports = gerarDadosUsuario;
+module.exports = generateUserData;

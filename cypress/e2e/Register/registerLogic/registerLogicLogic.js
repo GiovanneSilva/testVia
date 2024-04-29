@@ -1,8 +1,8 @@
 import { elementsRegister } from'../registerElementsPage/elementsRegisterPage';
-import gerarDadosUsuario from '../../../fixtures/UserDataGenerate';
+import generateUserData from '../../../fixtures/UserDataGenerate';
 
 export function fillRegister() {
-    const userData = gerarDadosUsuario();
+    const userData = generateUserData();
 
     cy.get(elementsRegister.firstNameField).type(userData.nome);
     cy.get(elementsRegister.lastNameField).type(userData.sobrenome);
