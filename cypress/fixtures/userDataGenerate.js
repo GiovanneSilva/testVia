@@ -17,7 +17,7 @@ function generateUserData() {
     senha,
     cpf,
     dataNascimento: dataNascimento.toLocaleDateString('pt-BR'),
-    telefone
+    telefone,
   };
 }
 

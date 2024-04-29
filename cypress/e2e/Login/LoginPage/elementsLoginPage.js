@@ -1,5 +1,5 @@
 exports.elementsLogin={
-    loginFiled:'input[name="login"]',
+    loginFiled:'input[name="user-name"]',
     passwordField:'input[name="password"]',
-    entryButton:'button[type="submit"]'
+    entryButton:'input[value="LOGIN"]'
 }
