@@ -9,7 +9,6 @@ function generateUserData() {
   const dataNascimento = fakerBr.date.past(30, new Date(1990, 0, 1));
   const telefone = fakerBr.phone.phoneNumber();
 
-
   return {
     nome,
     sobrenome,
