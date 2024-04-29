@@ -1,0 +1,25 @@
+{
+  "name": "testeviavarejo",
+  "version": "1.0.0",
+  "description": "projeto teste para viaVarejo",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/GiovanneSilva/teste.git"
+  },
+  "author": "Giovanne Silva Braz Barbosa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GiovanneSilva/teste/issues"
+  },
+  "homepage": "https://github.com/GiovanneSilva/teste#readme",
+  "devDependencies": {
+    "cypress": "^12.17.4"
+  },
+  "dependencies": {
+    "faker-br": "^0.4.1"
+  }
+}
