@@ -1,4 +1,4 @@
-# Testes Automatizados no site Avon 
+# Testes Automatizados no site SwagLabs
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/GiovanneSilva/testVia/blob/main/LICENSE) 
 
 # Sobre o projeto
