@@ -31,8 +31,33 @@ Este é um projeto de automação de testes desenvolvido com o objetivo de simul
 - Padrão PageObjects 
 
 # Cenários
-- Validação do fluxo de compra pagamento com boleto
 
+Feature: Compra com Sucesso
+  - Como cliente
+  - Eu quero realizar uma compra bem-sucedida no site das Casas Bahia
+  - Para receber os produtos que escolhi
+
+Cenário: Realizar uma compra com sucesso
+- Dado que o usuário está logado no site das Casas Bahia
+- E selecionou um item desejado para a compra
+- Quando o usuário segue o fluxo de compra, adicionando o item ao carrinho e fornecendo as informações necessárias
+- Então o usuário deve receber uma confirmação da compra
+- E o usuário deve visualizar a mensagem "Compra realizada com sucesso"
+
+Feature: Aviso de Produto Indisponível
+  - Como cliente
+  - Eu quero receber um aviso quando um item desejado estiver indisponível no site das Casas Bahia
+  - Para ser notificado quando o produto estiver de volta ao estoque
+
+  Cenário: Receber aviso de produto indisponível
+- Dado que o usuário está logado no site das Casas Bahia
+- Quando o usuário pesquisa pelo item desejado
+- E verifica que o item está indisponível
+- E opta por receber um aviso quando o item estiver disponível
+- Então o usuário deve visualizar a mensagem de confirmação do aviso de estoque
+
+  # Automatizado
+  - Validação do fluxo de compra pagamento com boleto
 
 
 # Autor
