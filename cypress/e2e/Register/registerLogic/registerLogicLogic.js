@@ -1,5 +1,5 @@
 import { elementsRegister } from'../registerElementsPage/elementsRegisterPage';
-import { generateUserData }from '../../../fixtures/UserDataGenerate';
+import  generateUserData from '../../../fixtures/UserDataGenerate';
 
 export function fillRegister() {
     const userData = generateUserData();
