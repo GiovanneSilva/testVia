@@ -5,7 +5,7 @@ export function acceptCookiesPage() {
 }
 
 export function searchProduct() {
-    cy.wait(6000)
+    cy.wait(10000)
     cy.get(elementsBase.searchButton).should('be.visible').click();
     cy.get(elementsBase.searchField).type('Batom')
     cy.get(elementsBase.showMoreProducts).click();
