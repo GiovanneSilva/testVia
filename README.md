@@ -1,41 +1,41 @@
-# Testes Automatizados no site Avon 
+# Automated Tests on the Avon website 
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/GiovanneSilva/testVia/blob/main/LICENSE) 
 
-# Sobre o projeto
+# About the project
 
-Este é um projeto de automação de testes desenvolvido com o objetivo de simular cenários de compra em um e-commerce. Utilizando a ferramenta Cypress, onde são executados testes automatizados para verificar o funcionamento das funcionalidades desde a criação de usuário, fluxo de compra etc.
+This is a test automation project developed with the aim of simulating purchase scenarios on an e-commerce site. Using the Cypress tool, automated tests are run to check that the functionalities work, from user creation to purchase flow, etc.
 
-# Tecnologias utilizadas
+# Technologies used
 - javaScript
 - Cypress
 - Node.js
   
-# Pré-requisitos
-- Node.js (versão 12 ou superior)
+# Prerequisites
+- Node.js (version 12 or higher)
 - npm (Node Package Manager)
   
-# Clonando o Repositório
-- Abra o terminal.
-- Navegue até o diretório onde deseja clonar o repositório.
-- Execute o seguinte comando para clonar o repositório: git clone
+# Cloning the Repository
+- Open the terminal.
+- Navigate to the directory where you want to clone the repository.
+- Run the following command to clone the repository: git clone
 
-# Instalando Dependências
-- Navegue até o diretório recém-clonado
-- Instale as dependências do projeto executando o seguinte comando: npm install
+# Installing Dependencies
+- Navigate to the newly cloned directory
+- Install the project's dependencies by running the following command: npm install
 
-# Executar o projeto
-- Após instalar as dependências, você pode executar os testes Cypress com o seguinte comando: npx cypress open
+# Run the project
+- After installing the dependencies, you can run the Cypress tests with the following command: npx cypress open
 
-# Competências
-- Blibioteca faker-br
-- Padrão PageObjects 
+# Skills
+- Faker library
+- PageObjects standard 
 
-# Cenários
-- Validação do fluxo de compra pagamento com boleto
+# Scenarios
+- Validation of the purchase flow payment with boleto
 
 
 
-# Autor
+# Author
 
 Giovanne Silva Braz Barbosa
 
