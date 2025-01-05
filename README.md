@@ -1,66 +1,66 @@
-# Testes Automatizados no site SwagLabs
+# Automated Testing on the SwagLabs website
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/GiovanneSilva/testVia/blob/main/LICENSE) 
 
-# Sobre o projeto
+# About the project
 
-Este é um projeto de automação de testes desenvolvido com o objetivo de simular cenários de compra em um e-commerce. Utilizando a ferramenta Cypress, onde são executados testes automatizados para verificar o funcionamento das funcionalidades desde a criação de usuário, fluxo de compra etc.
+This is a test automation project developed with the aim of simulating purchase scenarios on an e-commerce site. Using the Cypress tool, automated tests are run to check that the functionalities work, from user creation to purchase flow, etc.
 
-# Tecnologias utilizadas
+# Technologies used
 - javaScript
 - Cypress
 - Node.js
   
-# Pré-requisitos
-- Node.js (versão 12 ou superior)
+# Prerequisites
+- Node.js (version 12 or higher)
 - npm (Node Package Manager)
   
-# Clonando o Repositório
-- Abra o terminal.
-- Navegue até o diretório onde deseja clonar o repositório.
-- Execute o seguinte comando para clonar o repositório: git clone
+# Cloning the Repository
+- Open the terminal.
+- Navigate to the directory where you want to clone the repository.
+- Run the following command to clone the repository: git clone
 
-# Instalando Dependências
-- Navegue até o diretório recém-clonado
-- Instale as dependências do projeto executando o seguinte comando: npm install
+# Installing Dependencies
+- Navigate to the newly cloned directory
+- Install the project's dependencies by running the following command: npm install
 
-# Executar o projeto
-- Após instalar as dependências, você pode executar os testes Cypress com o seguinte comando: npx cypress open
+# Run the project
+- After installing the dependencies, you can run the Cypress tests with the following command: npx cypress open
 
-# Competências
-- Blibioteca faker-br
-- Padrão PageObjects 
+# Skills
+- Faker library
+- PageObjects standard 
 
-# Cenários
+# Scenarios
 
-Feature: Compra com Sucesso
-  - Como cliente
-  - Eu quero realizar uma compra bem-sucedida no site das Casas Bahia
-  - Para receber os produtos que escolhi
+Feature: Successful purchase
+  - As a customer
+  - I want to make a successful purchase on the Casas Bahia website
+  - To receive the products I have chosen
 
-Cenário: Realizar uma compra com sucesso
-- Dado que o usuário está logado no site das Casas Bahia
-- E selecionou um item desejado para a compra
-- Quando o usuário segue o fluxo de compra, adicionando o item ao carrinho e fornecendo as informações necessárias
-- Então o usuário deve receber uma confirmação da compra
-- E o usuário deve visualizar a mensagem "Compra realizada com sucesso"
+Scenario: Making a successful purchase
+- Given that the user is logged in to the Casas Bahia website
+- And has selected a desired item for purchase
+- When the user follows the purchase flow, adding the item to the cart and providing the necessary information
+- Then the user should receive a confirmation of the purchase
+- And the user should see the message “Purchase successfully completed”
 
-Feature: Aviso de Produto Indisponível
-  - Como cliente
-  - Eu quero receber um aviso quando um item desejado estiver indisponível no site das Casas Bahia
-  - Para ser notificado quando o produto estiver de volta ao estoque
+Feature: Unavailable product warning
+  - As a customer
+  - I want to receive a warning when a desired item is unavailable on the Casas Bahia website
+  - To be notified when the product is back in stock
 
-  Cenário: Receber aviso de produto indisponível
-- Dado que o usuário está logado no site das Casas Bahia
-- Quando o usuário pesquisa pelo item desejado
-- E verifica que o item está indisponível
-- E opta por receber um aviso quando o item estiver disponível
-- Então o usuário deve visualizar a mensagem de confirmação do aviso de estoque
+  Scenario: Receive notice of unavailable product
+- Given that the user is logged in to the Casas Bahia website
+- When the user searches for the desired item
+- And sees that the item is unavailable
+- And chooses to receive a notification when the item is available
+- Then the user should see the stock warning confirmation message
 
-  # Automatizado
-  - Validação do fluxo de compra pagamento com boleto
+  # Automated
+  - Validation of the purchase flow payment with boleto
 
 
-# Autor
+# Author
 
 Giovanne Silva Braz Barbosa
 
